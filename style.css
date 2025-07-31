@@ -1,9 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   list-style: none;
   text-decoration: none;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 /* header section starts here */
@@ -20,7 +28,7 @@ header {
   background-color: black;
   display: flex;
   position: fixed;
-  
+  z-index: 2;
 }
 
 .wrapper,
@@ -30,6 +38,7 @@ a {
   align-items: center;
   justify-content: space-around;
   gap: 100px;
+  font-family: "Public Sans", sans-serif;
   color: white;
 }
 
@@ -58,16 +67,18 @@ img {
 .hero-h3 {
   position: absolute;
   margin-left: 60px;
-  margin-bottom: -50px;
-  margin-top: -470px;
+  margin-bottom: -80px;
+  margin-top: -500px;
   z-index: 0;
+  color: yellow;
+  font-family: "Public Sans", sans-serif;
 }
 
 .hero-h2 {
   position: absolute;
   margin-left: 60px;
-  margin-top: -370px;
-  font-size: 55px;
+  margin-top: -460px;
+  font-size: 68px;
 }
 
 /* second cnt starts here */
@@ -82,6 +93,7 @@ img {
   padding-left: 60px;
   font-size: 24px;
   color: white;
+  font-family: "Public Sans", sans-serif;
 }
 
 .image-ceo {
@@ -97,6 +109,7 @@ img {
   margin-left: 200px;
   margin-top: -80px;
   font-size: 24px;
+  font-family: "Public Sans", sans-serif;
 }
 
 .cnt3-ceoname {
@@ -104,6 +117,7 @@ img {
   margin-left: 200px;
   margin-top: 10px;
   font-size: 14px;
+  font-family: "Public Sans", sans-serif;
 }
 
 .cnt-p {
@@ -111,7 +125,7 @@ img {
   margin-left: 60px;
   margin-top: 40px;
   font-size: 18px;
-  font-weight: 800;
+  font-family: "Public Sans", sans-serif;
 }
 
 .cnt-heading {
@@ -157,23 +171,54 @@ img {
 .cnt-4 {
   width: 100%;
   height: 50vh;
-  background-color:black;
+  background-color: black;
 }
 
-
-.cnt4-txt{
+.cnt4-txt {
   padding-left: 60px;
   padding-top: 40px;
   color: white;
-  font-size:28px;
+  font-size: 28px;
 }
 
-.cnt4-txt1{
+.cnt4-txt1 {
   padding-left: 60px;
   padding-top: 40px;
   color: white;
-  font-size:38px;
+  font-size: 38px;
 }
 
-/* @media screen (max-width: 1000px) {
-} */
+/* cnt 4 starts here  */
+
+.cnt-5 {
+  width: 100%;
+  height: 140vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  row-gap: -110px;
+  flex-wrap: wrap;
+}
+
+.cnt5-box1 {
+  margin-top: 50px;
+  height: 350px;
+  width: 30%;
+  background-color: wheat;
+}
+
+.cnt5-txt {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 28px;
+  font-weight: 300;
+  font-family: "Public Sans", sans-serif;
+}
+
+.cnt5-para {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Public Sans", sans-serif;
+}
