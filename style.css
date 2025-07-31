@@ -16,12 +16,11 @@ header {
 
 .wrapper {
   width: 90%;
-  height: 100px;
+  height: 80px;
   background-color: black;
   display: flex;
   position: fixed;
-  border-end-end-radius: 22px;
-  border-end-start-radius: 22px;
+  
 }
 
 .wrapper,
@@ -61,6 +60,7 @@ img {
   margin-left: 60px;
   margin-bottom: -50px;
   margin-top: -470px;
+  z-index: 0;
 }
 
 .hero-h2 {
@@ -157,7 +157,22 @@ img {
 .cnt-4 {
   width: 100%;
   height: 50vh;
-  background-color: red;
+  background-color:black;
+}
+
+
+.cnt4-txt{
+  padding-left: 60px;
+  padding-top: 40px;
+  color: white;
+  font-size:28px;
+}
+
+.cnt4-txt1{
+  padding-left: 60px;
+  padding-top: 40px;
+  color: white;
+  font-size:38px;
 }
 
 /* @media screen (max-width: 1000px) {
