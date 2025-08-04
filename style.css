@@ -149,7 +149,7 @@ img {
 
 /* info card 1 */
 .info-cnt1 {
-  background-color: yellow;
+  background-color:black;
   height: 100px;
   width: 40%;
 }
@@ -204,10 +204,11 @@ img {
   margin-top: 50px;
   height: 350px;
   width: 30%;
-  background-color: wheat;
+  background-color:black;
 }
 
 .cnt5-txt {
+  color:white;
   padding-top: 10px;
   padding-left: 20px;
   font-size: 28px;
@@ -216,9 +217,224 @@ img {
 }
 
 .cnt5-para {
+  color:gray;
   padding-top: 20px;
   padding-left: 20px;
   font-size: 24px;
   font-weight: 300;
   font-family: "Public Sans", sans-serif;
+}
+
+/* container 6 starts here  */
+.cnt-6 {
+  width: 100%;
+  height: 90vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  row-gap: -110px;
+  flex-wrap: wrap;
+}
+
+.cnt6-box1 {
+  margin-top: 15px;
+  height: 250px;
+  width: 45%;
+  background-color:black;
+}
+
+.cnt6-txt {
+  color:white;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 28px;
+  font-weight: 300;
+  font-family: "Public Sans", sans-serif;
+}
+
+.cnt6-para {
+  color:gray;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Public Sans", sans-serif;
+}
+
+/* container 7 starts here  */
+
+.cnt-7 {
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+}
+
+.cnt4-txt {
+  font-family: "Public Sans", sans-serif;
+}
+
+/* container 7 starts here    */
+
+.cnt-8 {
+  width: 100%;
+  height: 130vh;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+}
+
+.side1 {
+  height: 130vh;
+  width: 50%;
+  background-color: black;
+}
+
+.side1 h3 {
+  color: white;
+  font-family: "Public Sans", sans-serif;
+}
+
+.side a {
+  color: gray;
+}
+
+.cnt6-reach {
+  font-family: "Public Sans", sans-serif;
+  font-size: 22px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.cnt6-mail {
+  font-family: "Public Sans", sans-serif;
+  font-size: 22px;
+  margin-left: 60px;
+  margin-top: 10px;
+  color: gray;
+}
+
+.cnt6-phone {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  margin-left: 60px;
+  margin-top: 10px;
+  color: gray;
+}
+
+.cnt6-social {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  margin-left: 60px;
+  padding-top: 50px;
+  color: gray;
+}
+
+.socialmedia {
+  height: 30px;
+  width: 100%;
+  display: flex;
+}
+
+.socialmedia a {
+  margin-left: 60px;
+  padding-top: 20px;
+  color: gray;
+}
+
+.cnt-6map {
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  margin-left: 60px;
+  margin-top: 70px;
+  color: white;
+}
+
+.side2 {
+  height: 130vh;
+  width: 50%;
+  background-color: black;
+}
+
+iframe {
+  height: 420px;
+  width: 520px;
+  margin-left: 60px;
+  padding-top: 20px;
+  border-radius: 22px;
+}
+/* label section  */
+.name-la {
+  width: 400px;
+  height: 40px;
+  background-color: black;
+  border-radius: 4px;
+  border-color: transparent;
+  /* border-top-color:black;
+  border-left-color:black;
+  border-right-color:black;
+  border-bottom-color:transparent; */
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-left: 10px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.email-la {
+  width: 400px;
+  height: 40px;
+  background-color: black;
+  border-radius: 4px;
+  border-color: transparent;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 10px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.phone-la {
+  width: 400px;
+  height: 40px;
+  background-color: black;
+  border-radius: 4px;
+  border-color: transparent;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 10px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.message-la {
+  width: 400px;
+  height: 380px;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: black;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 10px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.submit-bt {
+  font-family: "Public Sans", sans-serif;
+  height: 60px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 285px;
+  background-color: gray;
+  border-color: transparent;
+  color: yellow;
+  font-weight: 300;
+}
+
+footer {
+  background-color: black;
+  height: 10vh;
+}
+
+footer h2 {
+  font-family: "Public Sans", sans-serif;
+  color: gray;
+  font-size: 16px;
+  margin-left: 60px;
 }
